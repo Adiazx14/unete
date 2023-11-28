@@ -78,16 +78,14 @@ function LandingPage() {
       sx={{ my: 2, textAlign: "center", color: "textPrimary", px: 5 }}
     >
       <Box sx={{ my: 0 }}>
-        <Typography color="textPrimary" variant="h5" gutterBottom>
-          Sé tu Propio Jefe del Bienestar: Explora Nuestra Gama de Suplementos
-          con Adaptógenos y Beneficios Nanotecnológicos
+        <Typography variant="h4" color="textPrimary" fontWeight="bold">
+          Sé tu Propio Jefe del Bienestar:
         </Typography>
-        <Typography
-          fontWeight="bold"
-          color="textPrimary"
-          variant="h4"
-          gutterBottom
-        >
+        <Typography color="textPrimary" variant="h5" gutterBottom>
+          Explora Nuestra Gama de Suplementos con Adaptógenos y Beneficios
+          Nanotecnológicos
+        </Typography>
+        <Typography fontWeight="bold" color="primary" variant="h5" gutterBottom>
           Da click en el video y descúbrelo aquí
         </Typography>
         <SouthOutlined sx={{ fontSize: 80, mb: 2 }} color="primary" />

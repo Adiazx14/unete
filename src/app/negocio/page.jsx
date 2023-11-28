@@ -49,7 +49,7 @@ const Negocio = () => {
           variant="contained"
           sx={{ mt: 3, mb: 2, fontSize: "1em" }}
         >
-          <Link href="https://api.whatsapp.com/send?phone=15615376267">
+          <Link href="https://api.whatsapp.com/send?phone=15615376267&text=Hola, me puede brindar más información sobre el producto y el negocio?">
             Contáctame en Whatsapp
           </Link>
         </Button>
