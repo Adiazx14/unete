@@ -115,7 +115,8 @@ function LandingPage() {
           variant="filled"
           required
         />
-        <TextField
+        {/*         Commneted out email field
+<TextField
           color="primary"
           fullWidth
           label="Correo Electronico"
@@ -125,7 +126,7 @@ function LandingPage() {
           margin="normal"
           variant="filled"
           required
-        />
+        /> */}
         <TextField
           color="primary"
           required

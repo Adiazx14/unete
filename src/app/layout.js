@@ -50,6 +50,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={inter.className}>
         <ThemeProvider theme={theme}>
+          {/* Commented out Navbar
           <HideOnScroll threshold={0}>
             <AppBar
               sx={{ mb: 4 }}
@@ -66,7 +67,7 @@ export default function RootLayout({ children }) {
                 <LinkDropdown />
               </Toolbar>
             </AppBar>
-          </HideOnScroll>
+          </HideOnScroll> */}
           {children}
         </ThemeProvider>
       </body>
