@@ -75,7 +75,7 @@ function LandingPage() {
   return (
     <Container
       maxWidth="md"
-      sx={{ my: 2, textAlign: "center", color: "textPrimary", px: 5 }}
+      sx={{ mb: 2, mt: 4, textAlign: "center", color: "textPrimary", px: 5 }}
     >
       <Box sx={{ my: 0 }}>
         <Typography variant="h4" color="textPrimary" fontWeight="bold">
