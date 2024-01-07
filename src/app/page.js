@@ -66,7 +66,7 @@ function LandingPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     window.open(
-      `https://api.whatsapp.com/send?phone=15615376267&text=Hola, mi nombre es ${formData.name}, mi correo es ${formData.email} y vivo en ${formData.country}. Me puede brindar más información sobre el producto y el negocio?`,
+      `https://api.whatsapp.com/send?phone=15615376267&text=Hola, mi nombre es ${formData.name} y soy de ${formData.country}. Me puede brindar más información sobre el producto y el negocio?`,
       "_blank"
     );
     // Form submission logic here
